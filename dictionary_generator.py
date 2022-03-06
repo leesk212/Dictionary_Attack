@@ -7,8 +7,8 @@
 
 outputfile = open("dictionary.txt",'w')
 
-target = str()
 
+## 7
 # for i in range (0,26):
 #     target = chr(97+i)
 #     for j in range(0,26):
@@ -26,6 +26,24 @@ target = str()
 #                             print(target7)
 #                             outputfile.write(target7+'\n')
 
+## 6
+# for i in range (0,26):
+#     target = chr(97+i)
+#     for j in range(0,26):
+#         target2 = target + chr(97+j)
+#         for k in range(0, 26):
+#             target3 = target2 + chr(97 + k)
+#             for l in range(0, 26):
+#                 target4 = target3 + chr(97 + l)
+#                 for n in range(0, 26):
+#                     target5 = target4 + chr(97 + n)
+#                     for m in range(0, 26):
+#                         target6 = target5 + chr(97 + m)
+#                         print(target6)
+#                         outputfile.write(target6+'\n')
+
+
+## 4
 for i in range (0,26):
     target = chr(97+i)
     for j in range(0,26):
@@ -34,9 +52,9 @@ for i in range (0,26):
             target3 = target2 + chr(97 + k)
             for l in range(0, 26):
                 target4 = target3 + chr(97 + l)
-                for n in range(0, 26):
-                    target5 = target4 + chr(97 + n)
-                    for m in range(0, 26):
-                        target6 = target5 + chr(97 + m)
-                        print(target6)
-                        outputfile.write(target6+'\n')
+                print(target4)
+                outputfile.write(target4 + '\n')
+
+
+
+

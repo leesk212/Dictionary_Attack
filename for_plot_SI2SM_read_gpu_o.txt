@@ -1,0 +1,48 @@
+GPU_RDMA_Read BW Test
+ #bytes     #iterations    BW peak[MB/sec]    BW average[MB/sec]   MsgRate[Mpps]
+Conflicting CPU frequency values detected: 3300.000000 != 3975.503000. CPU Frequency is not max.
+ 2          1000             5.15               4.79               2.509074
+Conflicting CPU frequency values detected: 3300.000000 != 4799.974000. CPU Frequency is not max.
+ 4          1000             27.85              20.91              5.482292
+Conflicting CPU frequency values detected: 3300.000000 != 4799.970000. CPU Frequency is not max.
+ 8          1000             56.96              48.71              6.383942
+Conflicting CPU frequency values detected: 3300.000000 != 4799.956000. CPU Frequency is not max.
+ 16         1000             108.29             89.06              5.836865
+Conflicting CPU frequency values detected: 3300.000000 != 4799.941000. CPU Frequency is not max.
+ 32         1000             218.93             173.42             5.682640
+Conflicting CPU frequency values detected: 3300.000000 != 4799.974000. CPU Frequency is not max.
+ 64         1000             437.86             339.83             5.567703
+Conflicting CPU frequency values detected: 3300.000000 != 4799.927000. CPU Frequency is not max.
+ 128        1000             840.99             701.87             5.749730
+Conflicting CPU frequency values detected: 3300.000000 != 4799.953000. CPU Frequency is not max.
+ 256        1000             1558.34            1299.55            5.322941
+Conflicting CPU frequency values detected: 3300.000000 != 4799.971000. CPU Frequency is not max.
+ 512        1000             2611.55            2388.72            4.892107
+Conflicting CPU frequency values detected: 3300.000000 != 4799.871000. CPU Frequency is not max.
+ 1KB       1000             3258.50            3137.13            3.212417
+Conflicting CPU frequency values detected: 3300.000000 != 4799.983000. CPU Frequency is not max.
+ 2KB       1000             3290.10            3288.45            1.683685
+Conflicting CPU frequency values detected: 3300.000000 != 4799.971000. CPU Frequency is not max.
+ 4KB       1000             3345.61            3345.50            0.856447
+Conflicting CPU frequency values detected: 3300.000000 != 4799.977000. CPU Frequency is not max.
+ 8KB       1000             3382.92            3382.90            0.433011
+Conflicting CPU frequency values detected: 3300.000000 != 4799.493000. CPU Frequency is not max.
+ 16KB      1000             3390.26            3390.09            0.216966
+Conflicting CPU frequency values detected: 3300.000000 != 4799.991000. CPU Frequency is not max.
+ 32KB      1000             3393.83            3393.72            0.108599
+Conflicting CPU frequency values detected: 3300.000000 != 4799.971000. CPU Frequency is not max.
+ 64KB      1000             3396.01            3395.99            0.054336
+Conflicting CPU frequency values detected: 3300.000000 != 4799.972000. CPU Frequency is not max.
+ 128KB     1000             3396.96            3396.95            0.027176
+Conflicting CPU frequency values detected: 3300.000000 != 4799.974000. CPU Frequency is not max.
+ 256KB     1000             3397.45            3397.44            0.013590
+Conflicting CPU frequency values detected: 3300.000000 != 4799.994000. CPU Frequency is not max.
+ 512KB     1000             3397.71            3397.71            0.006795
+Conflicting CPU frequency values detected: 3300.000000 != 4799.981000. CPU Frequency is not max.
+ 1MB    1000             3397.83            3397.83            0.003398
+Conflicting CPU frequency values detected: 3300.000000 != 4799.990000. CPU Frequency is not max.
+ 2MB    1000             3397.90            3397.90            0.001699
+Conflicting CPU frequency values detected: 3300.000000 != 4800.172000. CPU Frequency is not max.
+ 4MB    1000             3397.93            3397.93            0.000849
+Conflicting CPU frequency values detected: 3300.000000 != 4800.225000. CPU Frequency is not max.
+ 8MB    1000             3397.95            3397.94            0.000425
