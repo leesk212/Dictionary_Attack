@@ -19,13 +19,13 @@ for file in files:
     for _, line in enumerate(lines):
         line = line.strip()
         if _ == 0:
-            plt.title(line)
+            plt.title(line+'\nAmphere 40 (GA 40), ConnectX-5 EDR')
         elif _ == 1: # labels (xlabel -> byte, iterations-> same,
             tmps = line.split(" ")
             for tmp in tmps:
                 if len(tmp)!=0:
                     labels.append(tmp)
-            plt.xlabel(labels[0])
+            #plt.xlabel(labels[0])
             del labels[0:2]
             label1 = labels[0] +" "+labels[1]
             label2 = labels[2] +" "+labels[3]
@@ -53,7 +53,8 @@ for file in files:
 
     plt.plot(x_data,label1_data,label=labels_r[0])
     plt.plot(x_data,label2_data,label=labels_r[1])
-    plt.plot(x_data,label3_data,label=labels_r[2])
+#    plt.plot(x_data,label3_data,label=labels_r[2])
     plt.xticks(rotation=90)
+    plt.ylabel("Bandwidth (MB/s)")
     plt.legend()
     plt.show()
