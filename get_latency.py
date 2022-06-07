@@ -77,8 +77,8 @@ plt.xticks(rotation=90)
 plt.show()
 
 # Write
-plt.figure(figsize=(8,4))
-plt.plot(x_label,w_data,label='GPUDirect enabled')
+plt.figure(figsize=(8,3))
+plt.plot(x_label,w_data,label='GPUDirect enabled',color='forestgreen')
 plt.plot(x_label,Disabling_write,label='GPUDirect disabled')
 plt.legend(fontsize=13)
 plt.gca().spines['right'].set_visible(False) #오른쪽 테두리 제거
@@ -100,8 +100,8 @@ for i in range(23):
     bandwidth_write.append( size / r_data[i] )
     bandwidth_disable_write.append( size / Disabling_read[i] )
 
-plt.figure(figsize=(8,4))
-plt.plot(x_label,bandwidth_write,label='GPUDirect enabled')
+plt.figure(figsize=(8,3))
+plt.plot(x_label,bandwidth_write,label='GPUDirect enabled',color='forestgreen')
 plt.plot(x_label,bandwidth_disable_write,label='GPUDirect disabled')
 plt.gca().yaxis.set_major_formatter(mticker.FuncFormatter(lambda x, p: format(int(x), ',')))
 plt.legend(fontsize=13)
