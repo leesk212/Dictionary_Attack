@@ -74,11 +74,11 @@ del x_label
 x_label2 = []
 
 
-osu_d_1 = open('[osu]Disable_type1.txt','r')
+osu_d_1 = open('GDR Disable.txt', 'r')
 osu_d_1s = osu_d_1.readlines()
 osu_d_1_data = []
 
-osu_e_1 = open('[osu]Enable_type1.txt','r')
+osu_e_1 = open('GDR Enable.txt', 'r')
 osu_e_1s = osu_e_1.readlines()
 osu_e_1_data = []
 
@@ -111,16 +111,16 @@ for osu_e_2s_line in osu_e_2s:
     osu_e_2_data.append(float(osu_e_2s_line.split(" ")[-1]))
 
 
-plt.plot(x_label2,osu_d_1_data,label='[osu]Disable_type1.txt', color='forestgreen')
-plt.plot(x_label2,osu_e_1_data,label='[osu]Enable_type1.txt',color='blueviolet')
+plt.plot(x_label2,osu_d_1_data,label='GDR Disable.txt', color='forestgreen')
+plt.plot(x_label2,osu_e_1_data,label='GDR Enable.txt',color='blueviolet')
 #plt.plot(x_label2,osu_d_2_data,label='[osu]Disable_type2.txt',color='forestgreen')
 #plt.plot(x_label2,osu_e_2_data,label='[osu]Enable_type2.txt',color='blueviolet')
 plt.legend()
 plt.gca().spines['right'].set_visible(False) #오른쪽 테두리 제거
 plt.gca().spines['top'].set_visible(False) #위 테두리 제거
 plt.gca().yaxis.set_major_formatter(mticker.FuncFormatter(lambda x, p: format(int(x), ',')))
-plt.title("OSU Benchmarking\n")
-plt.ylabel("Latency (us)")
+plt.title("CryptAnalysis System\n")
+plt.ylabel("Program Execution Time (s)")
 plt.xlabel("Data size transmitted to each rank (MB)")
 plt.xticks(rotation=90)
 plt.show()
